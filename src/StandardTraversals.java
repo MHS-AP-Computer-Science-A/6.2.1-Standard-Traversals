@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class StandardTraversals {
 
     /**
-     * Returns the number of elements in the array that are equal to 10.
+     * Returns the number of elements in the array that are odd.
      */
     public static int countOdds(int[] arr) {
         // TODO: Write a standard for-loop traversal.
@@ -32,7 +32,6 @@ public class StandardTraversals {
 
     /**
      * Returns true if the array contains ANY negative number.
-     * (This is a trick problem: array has no negatives in this setup.)
      */
     public static boolean containsNegative(int[] arr) {
         // TODO: Standard for-loop.
@@ -75,3 +74,4 @@ public class StandardTraversals {
         System.out.println("Number of values less than 5: " + countLessThanFive(nums));
     }
 }
+
